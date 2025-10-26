@@ -227,7 +227,7 @@ function MediaUploadDropZone({ children, className }: MediaUploadDropZoneProps) 
     >
       {children}
       {isDragging && (
-        <div className="absolute inset-0 bg-primary/10 rounded-lg flex items-center justify-center">
+        <div className="absolute inset-0 bg-primary/10 rounded-lg flex items-center justify-center pointer-events-none">
           <p className="text-sm text-foreground font-medium bg-background rounded-full px-3 py-1">
             Drop files here to upload
           </p>
